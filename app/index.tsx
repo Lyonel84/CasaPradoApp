@@ -12,12 +12,17 @@ export default function Index() {
     backgroundColor: 'white',
    }}
    >
-<Image source={require('./../assets/images/CasaPrado_Logo.png')}
+    <View style={{
+      marginLeft:5
+    }}>
+      <Image source={require('./../assets/images/CasaPrado_Logo.png')}
 style={{
   width: '100%',
-  height:300,
-  marginTop: 100
+  height:150,
+  marginTop: 100,
 }}></Image>
+    </View>
+
   <View style={{
     padding:35,
     backgroundColor: '#b09977',
